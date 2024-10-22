@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    background-size: 100px 50px;
+    background-image: radial-gradient(circle farthest-side at 100% 150%, #fff 14%, #F5F1FC 15%, #F5F1FC 18%, #fff 19%, #fff 30%, #F5F1FC 31%, #F5F1FC 34%, #fff 35%, #fff 46%, #F5F1FC 47%, #F5F1FC 50%, transparent 50%, transparent),
+    radial-gradient(circle farthest-side at 0% 150%, #fff 14%, #F5F1FC 15%, #F5F1FC 18%, #fff 19%, #fff 30%, #F5F1FC 31%, #F5F1FC 34%, #fff 35%, #fff 46%, #F5F1FC 47%, #F5F1FC 50%, transparent 50%, transparent),
+    radial-gradient(circle closest-corner at 50% 100%, #fff 28%, #F5F1FC 30%, #F5F1FC 36%, #fff 38%, #fff 60%, #F5F1FC 62%, #F5F1FC 68%, #fff 70%, #fff 92%, #F5F1FC 94%, #F5F1FC 100%, transparent 100%, transparent),
+    radial-gradient(circle farthest-side at 100% 50%, #fff 14%, #F5F1FC 15%, #F5F1FC 18%, #fff 19%, #fff 30%, #F5F1FC 31%, #F5F1FC 34%, #fff 35%, #fff 46%, #F5F1FC 47%, #F5F1FC 50%, transparent 50%, transparent),
+    radial-gradient(circle farthest-side at 0% 50%, #fff 14%, #F5F1FC 15%, #F5F1FC 18%, #fff 19%, #fff 30%, #F5F1FC 31%, #F5F1FC 34%, #fff 35%, #fff 46%, #F5F1FC 47%, #F5F1FC 50%, #fff 50%, #fff);
+}
+.padding {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.p1_logo {
+    width: 200px;
+    padding-top: 20vh;
+}
+.center {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.font {
+    font-family: "ta-fuga-fude",
+sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.slide_text {
+    font-size: 23px;
+    padding-top: 20vh;
+}
+.slide_arrow {
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.caption_wrapper {
+    padding-top: 20vh;
+}
+
+.main_text {
+    font-family: "source-han-serif-jp-variable",
+    sans-serif;
+    font-weight: bold;
+    color: #2f2f2f;
+    font-style: normal;
+    font-size: 17px;
+}
+.one_line_space {
+    padding-top: 1.5vh;
+}
+/* font-family: "kokuryu",
+sans-serif;
+font-weight: 400;
+font-style: normal; */
+
+/* 見出し */
+p.flower {
+    font-family: "source-han-serif-jp-variable", sans-serif;
+    font-weight: bold;
+    margin: 0;
+    /* マージンをゼロに */
+    padding: 0;
+    /* パディングをゼロに */
+    display: inline-flex;
+    /* フレックスボックスで隣接させる */
+    align-items: center;
+    /* 垂直方向に中央揃え */
+    font-size: 24px;
+}
+
+p.flower:before {
+    content: ' ';
+    display: inline-block;
+    width: 50px;
+    /* 元のサイズを維持 */
+    height: 50px;
+    /* 元のサイズを維持 */
+    background-image: radial-gradient(#2f2f2f 25%, transparent 0),
+        radial-gradient(#2f2f2f 25%, transparent 0),
+        radial-gradient(#2f2f2f 25%, transparent 0),
+        radial-gradient(#2f2f2f 25%, transparent 0),
+        radial-gradient(#2f2f2f 25%, transparent 0);
+    background-position: 50% 0, 5% 40%, 95% 40%, 23% 95%, 78% 95%;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    /* margin-right: 10px; */
+    /* pとの間にスペースを追加 */
+    transform: scale(0.8);
+    /* 0.8倍に縮小 */
+    transform-origin: center;
+    /* 中央を基準に縮小 */
+    transform: translate(-2px, 2px);
+    /* 2px左、2px下に移動 */
+}
+.middle_heading {
+    padding-left: 10px;
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+}
+.number_indent {
+    text-indent: -0.8em;
+    padding-left: 0.8em;
+    padding-bottom: 1vh;
+}
+.vs_group {
+    padding-bottom: 1vh;
+}
+.padding_middle_heading {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.bold {
+    font-weight: bold;
+    font-size: 19px;
+    
+}
+.introduce_group_navy {
+    width: 100%;
+    border: solid #312D82 8px;
+    box-sizing: border-box;
+    outline: solid 1px #ffffff;
+}
+.introduce_group_white {
+    width: 100%;
+    border: solid #ffffff 8px;
+    box-sizing: border-box;
+    outline: solid 1px #312D82;
+}
+.img_margin_bottom {
+    margin-bottom: 3vh;
+}
+
+
+
+.btn-border {
+    border: solid 1px #000;
+    /* 内側の線になる一本線の枠線をひく*/
+    outline: solid 5px #000;
+    /* 外側の線になる5pxの一本線の枠線をひく*/
+    outline-offset: 2px;
+    /* 内側の線になる一本線の枠線をひく*/
+    margin: 6px;
+    /* outlineの値＋outline-offsetの値*/
+}
+.btn {
+font-size: 18px;
+font-family: "source-han-serif-jp-variable",
+sans-serif;
+font-weight: bold;
+color: #2f2f2f;
+text-decoration: none;
+}
+.button_wrapper {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.btn_span {
+    padding: 0px 15px 0px 15px;
+    background-color: #ffffff;
+}
